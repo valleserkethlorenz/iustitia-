@@ -62,7 +62,7 @@ header {
     justify-content: center;
     background-image: 
         linear-gradient(rgba(13, 56, 77, 0.3), rgba(13, 56, 77, 0.6)),
-        url(/assets/pexels-pavel-danilyuk-8112201.jpg);
+        url(assets/pexels-pavel-danilyuk-8112201.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -700,5 +700,6 @@ header {
         grid-template-columns: 1fr;
     }
 }
+
 
 
