@@ -14,6 +14,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 .header-content {
@@ -221,6 +222,31 @@ header {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(255, 252, 249, 0.3);
 }
+
+@media (max-width: 900px) {
+    .team-container {
+        gap: 1.25rem;
+    }
+    .team-member {
+        flex: 1 1 45%;
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .team-container {
+        gap: 0.75rem;
+        padding: 0 1rem;
+    }
+    .team-member {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .member-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
     
 .site-footer {
     background-color: rgba(13, 56, 77, 1);
@@ -301,4 +327,5 @@ header {
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
+
 }
